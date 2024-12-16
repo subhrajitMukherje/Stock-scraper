@@ -16,7 +16,12 @@ goroutines to scrape multiple tickers in parallel, making it extremely fast and 
 ├── scraper/    # Contains scraping logic 
 ├── utils/      # Utility functions (timestamp, file reading) 
 ├── tickers.txt # List of stock ticker symbols 
-├── README.md   # Project documentation (this file) 
+├── README.md   # Project documentation (this file)
+```
+## Prerequisites 
+
+To run this project, you need: 
+- **Go 1.20 or later** 
 
 
 ## How it Works 
@@ -30,7 +35,7 @@ For each ticker, the application scrapes the following data:
 - **Regular market change percentage**
   
 
-## Prerequisites 
+## Setup Instructions
 
 To run this project, you need: 
 - **Go 1.20 or later**
