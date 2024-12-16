@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/putongyong/go-stock-scraper/scraper"
-	"github.com/putongyong/go-stock-scraper/utils"
+	"github.com/subhrajitmukherje/stock-scraper/scraper"
+	"github.com/subhrajitmukherje/stock-scraper/utils"
 	"log"
 	"sync"
 	"time"
