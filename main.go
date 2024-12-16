@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/subhrajitmukherje/stock-scraper/scraper"
+	//"github.com/subhrajitmukherje/stock-scraper/scraper"
 	"github.com/subhrajitmukherje/stock-scraper/utils"
 	"log"
 	"sync"

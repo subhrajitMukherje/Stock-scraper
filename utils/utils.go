@@ -11,8 +11,6 @@ import (
 func GetCurrentTimestamp() string {
 	return time.Now().Format("2006-01-02 15:04:05")
 }
-
-// ReadTickersFromFile reads a list of tickers from a file and returns a slice of tickers
 func ReadTickersFromFile(filePath string) ([]string, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
